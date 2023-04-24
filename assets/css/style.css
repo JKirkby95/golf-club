@@ -26,32 +26,75 @@ body {
 
 #menu a {
     text-decoration: none;
-    color:#05386b;
+    color:#fff;
     font-weight: 600;
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #05386b;
+    border-bottom: 2px solid #fff;
 }
 
 #menu , #club-logo {
     line-height: 100px;
-    color: #05386b;
+    color: #fff;
 }
 
 .active {
     font-size: 125%;
     font-weight: 900;
-    border-bottom: 2px solid #05386b;
+    border-bottom: 2px solid #fff;
 }
 
 nav {
     width: 100%;
     height:100px;
-    background-color: #5cdb95;
+    background-color: #000;
 }
 
 h1, h2 {
     text-transform: uppercase;
+}
+
+body {
+    background-color: #000;
+}
+
+footer {
+    height: 250px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 2%;
+    color: #fff;
+}
+#facebook i:hover {
+    color:#3b5998;
+}
+
+#twitter i:hover {
+    color:#1DA1F2;
+}
+
+#youtube i:hover {
+    color:#FF0000;
+}
+
+#instagram i:hover {
+    color: salmon;
+}
+
+hr {
+    border-top: 1px solid #fff;
+    width: 100%;
 }
 
