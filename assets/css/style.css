@@ -31,12 +31,18 @@ body {
 }
 
 #menu a:hover {
-
+    border-bottom: 2px solid #05386b;
 }
 
 #menu , #club-logo {
     line-height: 100px;
     color: #05386b;
+}
+
+.active {
+    font-size: 125%;
+    font-weight: 900;
+    border-bottom: 2px solid #05386b;
 }
 
 nav {
