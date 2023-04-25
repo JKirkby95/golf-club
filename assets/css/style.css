@@ -63,7 +63,6 @@ h2 , h1 {
 
 #page-title {
     margin:0 auto;
-    width:100%;
     text-align: center;
     
 }
@@ -82,9 +81,22 @@ h2 , h1 {
 
 #cover-text {
     float: left;
-    width: 30%;
-    margin: 25px;
+    width: 25%;
+   padding:25px;
 }
+
+ #food-text {
+    width: 25%;
+    float: right;
+    padding: 25px;
+}
+
+#community {
+    margin: 0 auto;
+    width: 25%;
+    padding: 25px;
+
+} 
 
  
 
