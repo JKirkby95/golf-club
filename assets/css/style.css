@@ -79,16 +79,26 @@ h2 , h1 {
 }
 
 
-#cover-text {
+#about-text {
     float: left;
     width: 25%;
    padding:25px;
 }
 
+#about-text > img{
+    max-width: 100%;
+    padding-top: 25px;
+}
  #food-text {
     width: 25%;
     float: right;
     padding: 25px;
+}
+
+#food-text > img {
+    max-width: 100%;
+    padding-top: 25px;
+
 }
 
 #community {
@@ -98,6 +108,10 @@ h2 , h1 {
 
 } 
 
+ #community > img {
+    max-width: 100%;
+    padding-top: 25px;
+}
  
 
  /* footer  */
