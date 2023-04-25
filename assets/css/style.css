@@ -9,6 +9,7 @@
 body {
     font-family:Mulish, sans-serif;
     font-weight: 300;
+    background-image: url(../images/background-image.jpg);
 }
 
 /* header */
@@ -55,12 +56,12 @@ h1, h2 {
     text-transform: uppercase;
 }
 /* body */
-body {
-    background-color: #000;
-}
+
+
  /* footer  */
 footer {
     height: 250px;
+    background-color: #000;
 }
 
 .social-networks {
